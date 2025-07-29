@@ -1,0 +1,37 @@
+{
+  "name": "wzrd-maker",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "api",
+    "fastify",
+    "maker",
+    "scalar",
+    "wzrd"
+  ],
+  "author": "ojiwzrd",
+  "license": "ISC",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ojiwzrd/wzrd-maker"
+  },
+  "bugs": {
+    "url": "https://github.com/ojiwzrd/wzrd-maker/issues"
+  },
+  "homepage": "https://github.com/ojiwzrd/wzrd-maker#readme",
+  "dependencies": {
+    "@scalar/express-api-reference": "^0.8.12",
+    "axios": "^1.11.0",
+    "express": "^5.1.0",
+    "swagger-jsdoc": "^6.2.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
